@@ -40,7 +40,6 @@ var config = {
         };
     },
     imgOpts: { quality: 100 },
-    template: config.name.template,
     format: 'css'
 }
 
@@ -53,7 +52,7 @@ gulp.task('sprite', function () {
             imgPath: config.name.outputImg, //生成されるscssに記載されるパス
             cssFormat: config.format, //フォーマット
             cssVarMap: config.cssVarMap,
-            cssTemplate: config.template,
+            cssTemplate: config.name.template,
             imgOpts: config.imgOpts,
             cssHandlebarsHelpers: {
                 half: function (num) { return num/2; }
