@@ -12,5 +12,6 @@
   "devDependencies": {
     "gulp": "3.9.x",
     "gulp.spritesmith": "6.2.x"
-  }
+  },
+  "private": true
 }
