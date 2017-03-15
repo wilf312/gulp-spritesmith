@@ -1,4 +1,6 @@
 # gulp-spritesmith
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/wilf312/gulp-spritesmith.svg)](https://greenkeeper.io/)
 output retina css
 
 ## install
